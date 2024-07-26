@@ -1,5 +1,5 @@
 package com.example.myapp;
-
+//必要なモジュールのインポート
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.event.ActionEvent;
@@ -12,8 +12,8 @@ import java.util.List;
 
 import javax.swing.JPanel;
 import javax.swing.Timer;
-
-public class GamePanel extends JPanel implements ActionListener {
+//インターフェースの実装
+public class GamePanel extends JPanel implements ActionListener { 
     private Timer timer;
     private Player player;
     private List<Bullet> bullets;
